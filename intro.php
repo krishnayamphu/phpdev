@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PHP</title>
+</head>
+<body>
+
+	<h1>Welcome to php</h1>
+
+	<?php
+		echo "Hello PHP World";
+	?>
+
+</body>
+</html>
