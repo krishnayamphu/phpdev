@@ -7,14 +7,14 @@
 </head>
 <body>
 
-	<form action="welcome.php" method="get">
-		<label>Name:</label>
-		<input type="text" name="name">
+	<form action="auth.php" method="post">
+		<label>Username:</label>
+		<input type="text" name="Username">
 		<br><br>
-		<label>Age:</label>
-		<input type="text" name="age">
+		<label>Password:</label>
+		<input type="Password" name="Password">
 		<br><br>
-		<button>Submit</button>
+		<button>Login</button>
 	</form>
 
 </body>

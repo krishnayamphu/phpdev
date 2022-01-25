@@ -1,7 +1,7 @@
 <?php
 
-$name=$_POST['name'];
-$age=$_POST['age'];
+$name=$_GET['name'];
+$age=$_GET['age'];
 
 echo "Your name is:".$name;
 echo "<br>Your age is:".$age;
