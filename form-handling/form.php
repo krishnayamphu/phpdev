@@ -6,8 +6,12 @@
 	<title>Form</title>
 </head>
 <body>
+	<?php
+	$NAME=
 
-	<form action="welcome.php" method="get">
+	?>
+
+	<form action="$_SERVER['PHP_SELF']" method="get">
 		<label>Name:</label>
 		<input type="text" name="name">
 		<br><br>

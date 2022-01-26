@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	box-sizing: border-box;
+}
+p{
+	line-height: 30px;
+}
+header{
+	background-color: green;
+	padding: 30px;
+	text-align: center;
+	color: white;
+}
+nav{
+	background-color: #ccc;
+	text-align: center;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 30px;
+
+}
+.container{
+	width: calc(100% - 100px);
+	margin: 0 auto;
+	padding: 15px;
+}
+
+footer{
+	background-color: #333;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
