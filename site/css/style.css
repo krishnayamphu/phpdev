@@ -37,3 +37,34 @@ footer{
 	align-items: center;
 	color: white;
 }
+
+
+/* user form */
+.user-form{
+	border:1px solid #ccc;
+	padding: 15px;
+	width: 400px;
+	margin: 15px auto 60px auto;
+}
+.user-form label{
+	display: block;
+	padding: 15px 0;
+	width: 100%;
+}
+.user-form input{
+	display: block;
+	padding: 10px 0;
+	width: 100%;
+}
+.user-form button{
+	padding: 5px 15px;
+	margin-top: 10px;
+}
+.login-header{
+	text-align: center;
+	padding: 15px 0;
+}
+.error{
+	text-align: center;
+	color:#ff0000;
+}
