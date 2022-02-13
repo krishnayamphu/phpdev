@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +14,13 @@
       border:1px solid #ccc;
       padding:5px 15px;
     }
+    .alert{
+      color:green;
+      background-color:#ccc;
+      padding:8px 15px;
+      border:1px solid green;
+      display:inline-block;
+    }
   </style>
 </head>
 <body>
@@ -24,7 +32,20 @@ require 'connectdb.php';
 
 $sql = "SELECT * FROM users";
 $result = mysqli_query($conn, $sql);
+
 ?>
+
+
+<?php if(isset($_SESSION['del-success'])){
+  echo "<p class='alert'>".$_SESSION['del-success']."</p>";
+  unset($_SESSION['del-success']);
+} ?>
+
+<?php if(isset($_SESSION['update-success'])){
+  echo "<p class='alert'>".$_SESSION['update-success']."</p>";
+  unset($_SESSION['update-success']);
+} ?>
+
 <table>
   <tr>
     <th>ID</th>
@@ -38,8 +59,12 @@ $result = mysqli_query($conn, $sql);
     <td><?php echo $row["username"]; ?></td>
     <td><?php echo $row["password"]; ?></td>
     <td>
-      <a href="#">Edit</a>
-      <a href="#">Delete</a>
+      <a href="user.php?id=<?php echo $row["id"]; ?>">Edit</a>
+     
+      <form method="POST" action="del-user.php">
+        <input type="hidden" name="id" value="<?php echo $row["id"]; ?>">
+        <button type="submit" name="submit">Delete</button>
+      </form>
   </td>
   </tr>
 <?php } ?>
