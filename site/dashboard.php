@@ -56,7 +56,7 @@ if(isset($_POST['submit'])){
             <td><?php echo $row["photo_path"]; ?></td>
             <td><?php echo $row["created_date"]; ?></td>
             <td>
-              <a href="user.php?id=<?php echo $row['id']; ?>">Edit</a>
+              <a href="post-edit.php?id=<?php echo $row['id']; ?>">Edit</a>
 
               <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
                 <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
