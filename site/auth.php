@@ -5,7 +5,7 @@ if(isset($_POST['submit'])){
 	$username=$_POST['username'];
 	$password=$_POST['password'];
 
-	if($username=="admin" && $password=="admin123"){
+	if($username=="user" && $password=="user123"){
 		$_SESSION['user']=$username;
 		header("location:dashboard.php");
 	}else{

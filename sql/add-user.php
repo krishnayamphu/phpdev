@@ -1,16 +1,5 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database="phpdb";
-
-// Create connection
-$conn = mysqli_connect($servername, $username, $password,$database);
-
-// Check connection
-if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
-}
+require 'connectdb.php';
 
 if(isset($_POST['submit'])){
     $username=$_POST['username'];
@@ -18,7 +7,7 @@ if(isset($_POST['submit'])){
     $hash=md5($password);
     
     $sql="INSERT INTO users VALUES(null,'$username','$hash')";
-    
+
     if ($conn->query($sql) === TRUE) {
       header('location:datatable.php');
       // echo "Data created successfully";

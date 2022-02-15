@@ -10,20 +10,19 @@
 <?php require('header.php'); ?>
 <main>
 	<div class="container">
-		<h1>Welcome to homepage</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<?php
+require '../sql/connectdb.php';
 
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+$sql = "SELECT * FROM posts ORDER BY id	DESC LIMIT 5";
+$result = mysqli_query($conn, $sql); 
+while($row = mysqli_fetch_assoc($result)) {
+?>
+		<h1><?php echo $row['title']; ?></h1>
+		<?php echo $row['created_date']; ?>
+
+		<p><?php echo $row['text']; ?></p>
+	
+		<?php } ?>
 	</div>
 </main>
 

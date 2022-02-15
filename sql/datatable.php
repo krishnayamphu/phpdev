@@ -31,7 +31,7 @@
 require 'connectdb.php';
 
 $sql = "SELECT * FROM users";
-$result = mysqli_query($conn, $sql);
+$result = mysqli_query($conn, $sql); 
 
 ?>
 
