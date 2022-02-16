@@ -55,7 +55,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                     <textarea class="form-control" rows="8" name="text"><?php echo $row['text']; ?></textarea>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary" name="update">Update Post</button>
+            <button type="submit" class="btn btn-success float-end" name="update">Update Post</button>
         </form>
         <?php } ?>
     </div>
