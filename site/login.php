@@ -11,23 +11,35 @@
 <?php require('header.php'); ?>
 <main>
 	<div class="container">
-		<h1 class="login-header">User Login</h1>
-		<div class="error">
-			<p><?php 
-			if(isset($_SESSION['error'])){ 
-				echo $_SESSION['error'];
-				unset($_SESSION['error']);
-			}
-			?></p>
-		</div>
-		<form class="user-form" action="auth.php" method="post">
-			<label>Username</label>
-			<input type="text" name="username" required>
-			<label>Password</label>
-			<input type="password" name="password" required>
+        <div class="row justify-content-center py-5">
+            <div class="col-4">
+                <h1 class="login-header">User Login</h1>
+                <div class="error">
+                    <p><?php
+                        if(isset($_SESSION['error'])){
+                            echo $_SESSION['error'];
+                            unset($_SESSION['error']);
+                        }
+                        ?></p>
+                </div>
+                <form class="user-form" action="auth.php" method="post">
+                    <div class="mb-3">
+                        <label class="form-label">Username</label>
+                        <input type="text" class="form-control" name="username" placeholder="Username" required>
+                    </div>
 
-			<button type="submit" name="submit">Login</button>
-		</form>
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" name="password" placeholder="Password" required>
+                    </div>
+                    <div class="d-grid  d-block">
+                        <button class="btn btn-success" type="submit" name="submit" >Login</button>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
 	</div>
 </main>
 
