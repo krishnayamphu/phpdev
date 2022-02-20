@@ -1,30 +1,28 @@
 <?php
-$title="Home";
+$title="";
 require('header.php');
 ?>
 <main>
     <div class="container">
         <div class="row py-5">
-            <div class="col-lg-8">
+            <div class="col-lg-12">
                 <?php
                 require '../sql/connectdb.php';
-
-                $sql = "SELECT * FROM posts ORDER BY id	DESC LIMIT 5";
+                $id=$_GET['id'];
+                $sql = "SELECT * FROM posts WHERE id=$id ORDER BY id	DESC LIMIT 5";
                 $result = mysqli_query($conn, $sql);
                 while ($row = mysqli_fetch_assoc($result)) {
                     ?>
 
                     <div class="card mb-3">
-                        <?php
-                        if ($row['photo_path'] !== '') {
-
-                            ?>
-                            <img src="uploads/<?php echo $row['photo_path']; ?>" class="card-img-top img-thumb-md"
-                                 alt="<?php echo $row['photo_path']; ?>">
-
-                        <?php } ?>
                         <div class="card-body">
-                            <h5 class="card-title"><a href="single.php?id=<?php echo $row['id']; ?>"><?php echo $row['title']; ?></a></h5>
+                            <h1 class="card-title"><?php echo $row['title']; ?></h1>
+                            <?php
+                            if ($row['photo_path'] !== '') {?>
+                                <img src="uploads/<?php echo $row['photo_path']; ?>" class="card-img-top img-thumb-md"
+                                     alt="<?php echo $row['photo_path']; ?>">
+                            <?php } ?>
+                            <p class="card-text"><?php echo $row['text']; ?></p>
                             <p class="card-text">
                                 <small class="text-muted"><?php echo $row['created_date']; ?></small>
                             </p>

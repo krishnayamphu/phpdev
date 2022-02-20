@@ -1,8 +1,8 @@
 <?php
 session_start();
-require '../sql/connectdb.php';
+require '../connectdb.php';
 if (!isset($_SESSION['user'])) {
-    header("location:login.php");
+    header("location:../login.php");
 }
 
 if (isset($_POST['submit'])) {
@@ -31,7 +31,8 @@ if (isset($_POST['update'])) {
         echo "Error updating data: " . $conn->error;
     }
 }
-require('admin/header.php');
+$title="Edit Post";
+require('header.php');
 $id = $_GET['id'];
 
 $sql = "SELECT * FROM posts WHERE id=$id";
@@ -52,9 +53,10 @@ while ($row = mysqli_fetch_assoc($result)) {
             <div class="row mb-3">
                 <label class="col-sm-2 col-form-label">Content</label>
                 <div class="col-sm-10">
-                    <textarea class="form-control" rows="8" name="text"><?php echo $row['text']; ?></textarea>
+                    <textarea class="form-control" id="editor" rows="8" name="text"><?php echo $row['text']; ?></textarea>
                 </div>
             </div>
+
             <button type="submit" class="btn btn-success float-end" name="update">Update Post</button>
         </form>
         <?php } ?>

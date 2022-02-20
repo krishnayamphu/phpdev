@@ -4,3 +4,7 @@
 	text-decoration: none;
 	color:white;
 }
+.img-thumb-md{
+	max-height: 400px;
+	object-fit:cover;
+}

@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Home</title>
-</head>
-<body>
-<?php require('header.php'); ?>
+<?php
+$title="About Us";
+require('header.php');
+?>
 <main>
-	<div class="container">
+	<div class="container py-5">
 		<h1>About Us</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Home</title>
+    <script async charset="utf-8" src="//cdn.embedly.com/widgets/platform.js"></script>
+
+    <title><?php echo isset($title)?$title:''; ?></title>
 </head>
 <body>
 <header class="site-header bg-success py-5">
@@ -18,10 +20,6 @@
 <nav class="d-flex justify-content-center primary-nav bg-secondary">
     <a href="index.php">Home</a>
     <a href="about.php">About</a>
-    <?php if(!isset($_SESSION['user'])){?>
-        <a href="login.php">Login</a>
-    <?php }else { ?>
-        <a href="logout.php">Logout</a>
-    <?php } ?>
+    <a href="login.php">Login</a>
 </nav>
 

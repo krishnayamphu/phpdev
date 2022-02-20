@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title><?php echo isset($title)?$title:''; ?></title>
     <style>
         .ck-editor__editable_inline {
             min-height: 300px;
@@ -22,9 +22,6 @@
 <nav class="d-flex justify-content-center primary-nav bg-secondary">
     <a href="dashboard.php">Dashboard</a>
     <a href="post-new.php">New Post</a>
-    <?php if(!isset($_SESSION['user'])){?>
-        <a href="login.php">Login</a>
-    <?php }else { ?>
-        <a href="logout.php">Logout</a>
-    <?php } ?>
+    <a href="users.php">Users</a>
+    <a href="logout.php">Logout</a>
 </nav>
