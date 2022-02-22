@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95602d46-1709-478f-88b6-89a0b80c76b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/site/admin/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/admin/postCreate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/admin/users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/connectdb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/single.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/Constant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/inheritance/A.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/inheritance/Animal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/inheritance/Bank.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/inheritance/FinalClassDemo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/inheritance/FinalMethodDemo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/methods/Abc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/methods/Math.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/methods/Person.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/methods/Student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/methods/static.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/admin/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/admin/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/admin/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/admin/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/admin/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/site/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/admin/dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/admin/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/post-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/admin/post-edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/post-new.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/admin/post-new.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Animal.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,28 +30,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/admin/users.php">
+        <entry file="file://$PROJECT_DIR$/oop/methods/Math.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+            <state relative-caret-position="437">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/admin/dashboard.php">
+        <entry file="file://$PROJECT_DIR$/oop/methods/Person.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+            <state relative-caret-position="209">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oop/methods/Student.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oop/methods/static.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oop/inheritance/A.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oop/inheritance/Animal.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="21" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oop/inheritance/Bank.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oop/inheritance/FinalClassDemo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oop/inheritance/FinalMethodDemo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/site/admin/footer.php">
+        <entry file="file://$PROJECT_DIR$/oop/Constant.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="442">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -95,14 +151,26 @@
         <option value="$PROJECT_DIR$/site/admin/dashboard.php" />
         <option value="$PROJECT_DIR$/site/admin/users.php" />
         <option value="$PROJECT_DIR$/site/admin/footer.php" />
+        <option value="$PROJECT_DIR$/oop/Animal.php" />
+        <option value="$PROJECT_DIR$/oop/methods/Abc.php" />
+        <option value="$PROJECT_DIR$/oop/methods/Math.php" />
+        <option value="$PROJECT_DIR$/oop/methods/Person.php" />
+        <option value="$PROJECT_DIR$/oop/methods/Student.php" />
+        <option value="$PROJECT_DIR$/oop/methods/static.php" />
+        <option value="$PROJECT_DIR$/oop/inheritance/A.php" />
+        <option value="$PROJECT_DIR$/oop/inheritance/Animal.php" />
+        <option value="$PROJECT_DIR$/oop/inheritance/Bank.php" />
+        <option value="$PROJECT_DIR$/oop/inheritance/FinalClassDemo.php" />
+        <option value="$PROJECT_DIR$/oop/inheritance/FinalMethodDemo.php" />
+        <option value="$PROJECT_DIR$/oop/Constant.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3" />
-    <option name="y" value="11" />
-    <option name="width" value="865" />
-    <option name="height" value="449" />
+    <option name="x" value="1" />
+    <option name="y" value="6" />
+    <option name="width" value="554" />
+    <option name="height" value="288" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -122,13 +190,7 @@
             <path>
               <item name="phpdev" type="b2602c69:ProjectViewProjectNode" />
               <item name="phpdev" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phpdev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpdev" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,6 +248,9 @@
       <workItem from="1645179159415" duration="3326000" />
       <workItem from="1645194658933" duration="8328000" />
       <workItem from="1645287031473" duration="599000" />
+      <workItem from="1645353510967" duration="555000" />
+      <workItem from="1645437705377" duration="3763000" />
+      <workItem from="1645523614127" duration="3542000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap integrated">
       <created>1645010364379</created>
@@ -198,13 +263,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29118000" />
+    <option name="totallyTimeSpent" value="36978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1762481" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23373677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -367,7 +432,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/admin/users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="209">
           <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
         </state>
       </provider>
@@ -381,8 +446,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/admin/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="228">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/Animal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/methods/Abc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/methods/Math.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/methods/Person.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/methods/Student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/methods/static.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/inheritance/A.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/inheritance/Animal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="21" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/inheritance/Bank.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/inheritance/FinalClassDemo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/inheritance/FinalMethodDemo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/Constant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
         </state>
       </provider>
     </entry>
