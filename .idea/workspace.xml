@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95602d46-1709-478f-88b6-89a0b80c76b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/oop/iterable/IterableDemo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/iterable/Person.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/namespacedemo/Book/Book.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/namespacedemo/Student/Address.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/namespacedemo/Student/Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/namespacedemo/namespacedemo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/callback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/jsondecode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/jsonincode.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oop/namespacedemo/namespacedemo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="418">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#94#114#0#PHP" expanded="true" />
               </folding>
@@ -35,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oop/iterable/IterableDemo.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
@@ -45,9 +42,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/callback.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json/jsonincode.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/json/jsondecode.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="9" selection-start-line="2" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oop/iterable/Person.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
+            <state relative-caret-position="304">
               <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
@@ -108,13 +132,16 @@
         <option value="$PROJECT_DIR$/oop/namespacedemo/namespacedemo.php" />
         <option value="$PROJECT_DIR$/oop/iterable/Person.php" />
         <option value="$PROJECT_DIR$/oop/iterable/IterableDemo.php" />
+        <option value="$PROJECT_DIR$/callback.php" />
+        <option value="$PROJECT_DIR$/json/jsonincode.php" />
+        <option value="$PROJECT_DIR$/json/jsondecode.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="3" />
+    <option name="y" value="2" />
     <option name="width" value="445" />
-    <option name="height" value="232" />
+    <option name="height" value="233" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -124,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,13 +162,12 @@
             <path>
               <item name="phpdev" type="b2602c69:ProjectViewProjectNode" />
               <item name="phpdev" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,6 +226,7 @@
       <workItem from="1645694885764" duration="9000" />
       <workItem from="1645696099196" duration="4518000" />
       <workItem from="1645783213345" duration="3310000" />
+      <workItem from="1645956052731" duration="2824000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap integrated">
       <created>1645010364379</created>
@@ -211,12 +239,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44815000" />
+    <option name="totallyTimeSpent" value="47639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19463088" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19731544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -518,16 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oop/namespacedemo/namespacedemo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#94#114#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oop/namespacedemo/Student/Address.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -535,9 +554,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/oop/namespacedemo/namespacedemo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#94#114#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oop/iterable/Person.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
+        <state relative-caret-position="304">
           <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
@@ -546,6 +575,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="14" column="40" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/jsonincode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/jsondecode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" selection-start-line="2" selection-end-line="9" />
         </state>
       </provider>
     </entry>
