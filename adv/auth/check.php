@@ -8,6 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['user'] = $username;
         header('location:welcome.php');
     } else {
+        $_SESSION['err'] = "Invalid username or password";
         header('location:index.php');
     }
 }
