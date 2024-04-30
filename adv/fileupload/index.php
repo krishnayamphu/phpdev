@@ -1,9 +1,9 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $target_dir = "";
+    $target_dir = "uploads/";
     $str = bin2hex(random_bytes(5)) . "-";
     $date = date('Y-m-d-');
-    $target_file = $target_dir . $str . basename($_FILES["fileToUpload"]["name"]);
+    $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
     $uploadOk = 1;
     $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
 
