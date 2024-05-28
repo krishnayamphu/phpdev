@@ -16,32 +16,45 @@ $id = $_GET['id'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Users</title>
+    <title>User Details</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
+    <?php include 'header.php' ?>
+    <main>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-6">
+                    <h3>User Details</h3>
+                    <form action="user-update.php" method="post">
+                        <?php
+                        $sql = "SELECT * FROM users WHERE id=$id";
+                        $result = mysqli_query($conn, $sql);
+                        $count = mysqli_num_rows($result);
+                        while ($row = mysqli_fetch_assoc($result)) :
+                        ?>
 
-    <form action="user-update.php" method="post">
+                            <input type="hidden" name="id" value="<?php echo $row['id'] ?>">
+                            <div class="mb-3">
+                                <label class="form-label">Username</label>
+                                <input type="text" class="form-control" name="username" value="<?php echo $row['username'] ?>" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Password</label>
+                                <input type="password" class="form-control" name="password" value="<?php echo $row['password'] ?>" required>
+                            </div>
+                        <?php
+                        endwhile
+                        ?>
+                        <button class="btn btn-primary" type="submit" name="submit">Update</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
 
-        <?php
-        $sql = "SELECT * FROM users WHERE id=$id";
-        $result = mysqli_query($conn, $sql);
-        $count = mysqli_num_rows($result);
-        while ($row = mysqli_fetch_assoc($result)) :
-        ?>
-
-            <input type="hidden" name="id" value="<?php echo $row['id'] ?>">
-            <label>Username</label>
-            <input type="text" name="username" value="<?php echo $row['username'] ?>">
-            <br><br>
-            <label>Password</label>
-            <input type="password" name="password" value="<?php echo $row['password'] ?>">
-        <?php
-        endwhile
-        ?>
-        <br><br>
-        <button type="submit" name="submit">Update</button>
-    </form>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

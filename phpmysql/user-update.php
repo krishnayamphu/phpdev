@@ -12,8 +12,8 @@ if (isset($_POST['submit'])) {
     $id = $_POST['id'];
     $username = $_POST['username'];
     $password = $_POST['password'];
-
-    $sql = "UPDATE users SET username='$username',password='$password' WHERE id=$id";
+    $hash = md5($password);
+    $sql = "UPDATE users SET username='$username',password='$hash' WHERE id=$id";
     $result = mysqli_query($conn, $sql);
     echo $result;
     if ($result == 1) {
