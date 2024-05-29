@@ -20,6 +20,13 @@
                             <a class="nav-link" href="search.php">Search User</a>
                         </li>
                     </ul>
+
+                    <div class="d-flex align-items-center">
+                        <a class="nav-link text-white me-2 text-uppercase" href="#"><?php echo $_SESSION['user'] ?></a>
+                        <form action="logout.php" method="post">
+                            <button class="btn btn-secondary">Logout</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </nav>
